@@ -6,7 +6,7 @@ const HeaderNav = () => {
         <div className='logo'>
             <span>C</span>
         <h2>
-            cristian
+            cristian lair
         </h2>
         </div>
       <nav>
@@ -19,9 +19,6 @@ const HeaderNav = () => {
             </li>
             <li>
             <NavLink to= '/portfolio'  className={({isActive}) => isActive ? 'active' : ''}>Portfolio</NavLink>
-            </li>
-            <li>
-            <NavLink to= '/servicios'  className={({isActive}) => isActive ? 'active' : ''}>Servicios</NavLink>
             </li>
             <li>
             <NavLink to= '/curriculum'  className={({isActive}) => isActive ? 'active' : ''}>Curriculum</NavLink>

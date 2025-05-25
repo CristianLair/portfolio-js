@@ -20,7 +20,6 @@ const MisRutas = () => {
 <Route path='/' element= {<Inicio />}/>
 <Route path='/inicio' element= {<Inicio />}/>
 <Route path='/portfolio' element= {<Portafolio />}/>
-<Route path='/servicios' element= {<Servicios />}/>
 <Route path='/curriculum' element= {<Curriculum />}/>
 <Route path='/contacto' element= {<Contacto />}/>
 <Route path= '*' element= {<h1>Error pagina inexistente</h1>} />
